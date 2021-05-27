@@ -5,7 +5,7 @@
 //  Created by June2020 on 5/24/21.
 //
 
-// https://api.nasa.gov/planetary/apod/?api_key=UKiuyvDYCrHVcC20FecZUbW0XbKfMIGuhkw5zkKf&start_date=2005-06-16&end_date=2005-07-23
+// https://api.nasa.gov/planetary/apod/?api_key=MYKEY
 import Foundation
 
 
@@ -15,7 +15,7 @@ class NPClient {
     
     struct Auth {
         
-        static var apiKey = "UKiuyvDYCrHVcC20FecZUbW0XbKfMIGuhkw5zkKf"
+        static var apiKey = "MYKEY"
     }
     
     enum Endpoints {
